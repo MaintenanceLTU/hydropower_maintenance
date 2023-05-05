@@ -1,0 +1,100 @@
+{
+  "hydro_power_generator": {
+    "10": {
+      "name": "Water Flow Control",
+      "functions": {
+        "10.1": {
+          "name": "Water Storage and Regulation",
+          "description": "Stores and regulates water for use in the hydroelectric power plant",
+          "technical_components": ["10"]
+        },
+        "10.2": {
+          "name": "Water Intake",
+          "description": "Controls the flow of water into the penstock",
+          "technical_components": ["20", "20.1", "20.2", "20.3"]
+        },
+        "10.3": {
+          "name": "Water Conveyance",
+          "description": "Carries water from the intake structure to the turbine",
+          "technical_components": ["30"]
+        },
+        "10.4": {
+          "name": "Water Discharge",
+          "description": "Discharges water back into the river after passing through the turbine",
+          "technical_components": ["90"]
+        }
+      }
+    },
+    "20": {
+      "name": "Power Generation",
+      "functions": {
+        "20.1": {
+          "name": "Energy Conversion",
+          "description": "Converts the kinetic energy of water into mechanical and electrical energy",
+          "technical_components": ["40", "40.1", "40.2", "40.3", "40.4", "40.4.1", "40.4.2", "50", "50.1", "50.2"]
+        }
+      }
+    },
+    "30": {
+      "name": "Power Transmission",
+      "functions": {
+        "30.1": {
+          "name": "Voltage Regulation",
+          "description": "Increases or decreases the voltage of the generated electricity for long-distance transmission and distribution",
+          "technical_components": ["60"]
+        },
+        "30.2": {
+          "name": "Grid Connection",
+          "description": "Connects the hydro power plant to the electrical grid",
+          "technical_components": ["80", "80.1", "80.2", "80.3"]
+        }
+      }
+    },
+    "40": {
+      "name": "Monitoring and Control",
+      "functions": {
+        "40.1": {
+          "name": "System Monitoring and Control",
+          "description": "Monitors and controls various parameters of the power plant to maintain efficiency and safety",
+          "technical_components": ["70"]
+        }
+      }
+    },
+    "50": {
+      "name": "Auxiliary Systems",
+      "description": "Support the main components of the hydroelectric power plant",
+      "functions": {
+        "50.1": {
+          "name": "Cooling",
+          "description": "Provides cooling to the main components",
+          "technical_components": ["100.1"]
+        },
+        "50.2": {
+          "name": "Lubrication",
+          "description": "Provides lubrication to the main components",
+          "technical_components": ["100.2"]
+        },
+        "50.3": {
+          "name": "Ventilation",
+          "description": "Provides ventilation to the main components",
+          "technical_components": ["100.3"]
+        },
+        "50.4": {
+          "name": "Fire Protection",
+          "description": "Provides fire protection to the main components",
+          "technical_components": ["100.4"]
+        },
+        "50.5": {
+          "name": "Emergency Power",
+          "description": "Provides emergency power to the main components",
+          "technical_components": ["100.5"]
+        },
+        "50.6": {
+          "name": "Auxiliary Systems Management",
+          "description": "Manages and controls the auxiliary systems to support the main components",
+          "technical_components": ["100"]
+        }
+      }
+    }
+  }
+}

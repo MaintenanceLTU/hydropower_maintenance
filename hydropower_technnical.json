@@ -1,0 +1,134 @@
+{
+  "hydro_power_generator": {
+    "10": {
+      "name": "Water Reservoir",
+      "type": "source",
+      "description": "A dam or river where water is stored and regulated for use in the hydroelectric power plant"
+    },
+    "20": {
+      "name": "Intake Structure",
+      "components": {
+        "20.1": {
+          "name": "Trash Rack",
+          "description": "Filters out debris from the water"
+        },
+        "20.2": {
+          "name": "Gate",n
+          "description": "Controls water flow"
+        },
+        "20.3": {
+          "name": "Conduit",
+          "description": "Transports water to the penstock"
+        }
+      }
+    },
+    "30": {
+      "name": "Penstock",
+      "material": ["steel", "concrete"],
+      "description": "Pipeline that carries water from the intake structure to the turbine"
+    },
+    "40": {
+      "name": "Turbine",
+      "description": "Converts the kinetic energy of water into mechanical energy",
+      "type": "Kaplan",
+      "components": {
+        "40.1": {
+          "name": "Runner",
+          "description": "The rotating part of the turbine that interacts with the water flow"
+        },
+        "40.2": {
+          "name": "Guide Vanes",
+          "description": "Directs water flow onto the runner blades"
+        },
+        "40.3": {
+          "name": "Shaft",
+          "description": "Transfers mechanical energy from the turbine to the generator"
+        },
+        "40.4": {
+          "name": "Hub",
+          "description": "Connects the runner blades to the shaft",
+          "components": {
+            "40.4.1": {
+              "name": "Blade Seals",
+              "description": "Seals the gap between the hub and the runner blades"
+            },
+            "40.4.2": {
+              "name": "Pitch Control Mechanism",
+              "description": "Controls the angle of the runner blades"
+            }
+          }
+        }
+      }
+    },
+    "50": {
+      "name": "Generator",
+      "description": "Converts mechanical energy into electrical energy",
+      "components": {
+        "50.1": {
+          "name": "Stator",
+          "description": "Stationary part of the generator"
+        },
+        "50.2": {
+          "name": "Rotor",
+          "description": "Rotating part of the generator"
+        }
+      }
+    },
+    "60": {
+      "name": "Transformer",
+      "description": "Increases or decreases the voltage of the generated electricity for long-distance transmission and distribution"
+    },
+    "70": {
+      "name": "Control Systems",
+      "function": "Monitor and control various parameters of the power plant",
+      "description": "Maintain efficiency and safety within the plant"
+    },
+    "80": {
+      "name": "Switchyard",
+      "components": {
+        "80.1": {
+          "name": "Circuit Breakers",
+          "description": "Ensure proper functioning and protection of the system"
+        },
+        "80.2": {
+          "name": "Switches",
+          "description": "Ensure proper functioning and protection of the system"
+        },
+        "80.3": {
+          "name": "Electrical Equipment",
+          "description": "Ensure proper functioning and protection of the system"
+        }
+      }
+    },
+    "90": {
+      "name": "Tailrace",
+      "description": "Discharges water back into the river after passing through the turbine"
+    },
+    "100": {
+      "name": "Auxiliary Systems",
+      "description": "Support the main components of the hydroelectric power plant",
+      "components": {
+        "100.1": {
+          "name": "Cooling",
+          "description": "Supports the main components by providing cooling"
+        },
+        "100.2": {
+          "name": "Lubrication",
+          "description": "Supports the main components by providing lubrication"
+        },
+        "100.3": {
+          "name": "Ventilation",
+          "description": "Supports the main components by providing ventilation"
+        },
+        "100.4": {
+          "name": "Fire Protection",
+          "description": "Supports the main components by providing fire protection"
+        },
+        "100.5": {
+          "name": "Emergency Power",
+          "description": "Supports the main components by providing emergency power"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "subsystem": "20",
+    "component": "20.1",
+    "type": "ACM",
+    "action": "Repair damaged trash rack bars",
+    "failure_frequency": 0.01,
+    "admin_delay": [1, 0.5],
+    "repair_time": [2, 1]
+  },
+  {
+    "subsystem": "20",
+    "component": "20.2",
+    "type": "ACM",
+    "action": "Replace worn gate seals",
+    "failure_frequency": 0.02,
+    "admin_delay": [3, 1],
+    "repair_time": [2, 0.2]
+  },
+  {
+    "subsystem": "40",
+    "component": "40.1",
+    "type": "ACM",
+    "action": "Repair blade damage",
+    "failure_frequency": 0.005,
+    "admin_delay": [1.5, 0.3],
+    "repair_time": [1.5, 0.5]
+  },
+  {
+    "subsystem": "50",
+    "component": "50.1",
+    "type": "ACM",
+    "action": "Repair insulation damage",
+    "failure_frequency": 0.01,
+    "admin_delay": [2.5, 0.5],
+    "repair_time": [3, 1]
+  },
+  {
+    "subsystem": "80",
+    "component": "80.1",
+    "type": "ACM",
+    "action": "Replace faulty circuit breaker",
+    "failure_frequency": 0.015,
+    "admin_delay": [1, 0.2],
+    "repair_time": [1.5, 0.8]
+  },
+  {
+    "subsystem": "40",
+    "component": "40.1",
+    "type": "PdM",
+    "action": "Clean turbine runner blades",
+    "frequency": 0.14,
+    "admin_delay": [1, 0.3],
+    "repair_time": [0.5, 0.2]
+  },
+  {
+    "subsystem": "50",
+    "component": "50.1",
+    "type": "PdM",
+    "action": "Replace worn gate seals",
+    "frequency": 0.01,
+    "admin_delay": [0.8, 0.1],
+    "repair_time": [1, 0.5]
+  },
+  {
+    "subsystem": "70",
+    "component": "70.1",
+    "type": "PdM",
+    "action": "Tighten electrical connections",
+    "frequency": 0.14,
+    "admin_delay": [0.5, 0.2],
+    "repair_time": [0.5, 0.1]
+  },
+  {
+    "subsystem": "80",
+    "component": "80.1",
+    "type": "PdM",
+    "action": "Replace faulty circuit breaker",
+    "frequency": 0.02,
+    "admin_delay": [0.6, 0.2],
+    "repair_time": [0.4, 0.1]
+  },
+  {
+    "subsystem": "40",
+    "component": "40.1",
+    "type": "CBM",
+    "action": "Inspect turbine runner blades",
+    "frequency": 0.14,
+    "admin_delay": [1, 0],
+	"repair_time": [0.5, 0.2]
+  },
+    {
+    "subsystem": "90",
+    "component": "90.1",
+    "type": "DCM",
+    "action": "Clear debris from tailrace",
+    "failure_frequency": 0.006,
+    "admin_delay": [1, 0.3],
+    "repair_time": [0.5, 0.2]
+  },
+  {
+    "subsystem": "50",
+    "component": "50.1",
+    "type": "CBM",
+    "action": "Inspect generator rotor",
+    "frequency": 0.14,
+    "admin_delay": [0.8, 0.1],
+    "repair_time": [1, 0.5]
+  },
+  {
+    "subsystem": "60",
+    "component": "60.1",
+    "type": "DCM",
+    "action": "Replace faulty transformer",
+    "failure_frequency": 0.008,
+    "admin_delay": [2, 0.4],
+    "repair_time": [2.5, 0.7]
+  },
+  {
+    "subsystem": "100",
+    "component": "100.1",
+    "type": "CBM",
+    "action": "Inspect cooling system components",
+    "frequency": 0.14,
+    "admin_delay": [0.9, 0.3],
+    "repair_time": [0.4, 0.2]
+  },
+  {
+    "subsystem": "70",
+    "component": "70.1",
+    "type": "PdM",
+    "action": "Tighten electrical connections",
+    "frequency": 0.14,
+    "admin_delay": [0.5, 0.2],
+    "repair_time": [0.5, 0.1]
+  },
+  {
+    "subsystem": "70",
+    "component": "70.1",
+    "type": "CBM",
+    "action": "Monitor control system performance",
+    "frequency": 0.5,
+    "admin_delay": [0.5, 0.2],
+    "repair_time": [0.5, 0.1]
+  }
+]
